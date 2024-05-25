@@ -2,6 +2,7 @@ body {
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/127/467/original/nasa-Q1p7bh3SHj8-unsplash.jpg?1716669911");
   background-repeat: repeat;
   background-size: cover;
+  background-color: rgba(2, 3, 10, 1);
   font-family: "Orbitron", sans-serif;
   font-optical-sizing: auto;
   line-height: 20px;
