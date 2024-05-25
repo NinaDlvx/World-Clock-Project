@@ -1,5 +1,7 @@
 body {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/127/467/original/nasa-Q1p7bh3SHj8-unsplash.jpg?1716669911");
+  background-repeat: repeat;
+  background-size: cover;
   font-family: "Orbitron", sans-serif;
   font-optical-sizing: auto;
   line-height: 20px;
@@ -23,11 +25,12 @@ select {
   font-size: 18px;
   border-radius: 4px;
   padding: 12px;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(2, 3, 10, 0.9);
   color: yellowgreen;
 }
 select:hover {
   cursor: pointer;
+  color: aliceblue;
 }
 
 .container {
@@ -62,10 +65,10 @@ select:hover {
 
 footer {
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 24px;
-  color: rgba(0, 0, 0, 0.8);
   color: aliceblue;
+  margin: 30px auto 60px;
 }
 
 a {
@@ -79,10 +82,11 @@ a:hover {
 button {
   display: block;
   width: 25%;
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: 300;
   border-radius: 4px;
-  padding: 4px;
-  background-color: rgba(0, 0, 0, 0.9);
+  padding: 6px;
+  background-color: rgba(2, 3, 10, 0.9);
   color: yellowgreen;
   cursor: pointer;
 }
