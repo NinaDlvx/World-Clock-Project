@@ -75,3 +75,22 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+button {
+  display: block;
+  width: 25%;
+  font-size: 12px;
+  border-radius: 4px;
+  padding: 4px;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: yellowgreen;
+  cursor: pointer;
+}
+button:hover {
+  transition: all ease-in-out 200;
+  color: aliceblue;
+}
+.link-button,
+.link-button:hover {
+  text-decoration: none;
+}

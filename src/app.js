@@ -77,7 +77,8 @@ function updateCity(event) {
             <h2 class="time">${cityTime.format("hh:mm:ss")}</h2>
             <div class="meridiem">${cityTime.format("A")}</div>
           </div>
-        </div>`;
+        </div>
+        </ br> <a href="../index.html" class="link-button"><button>Back to homepage</button></a>`;
   }, 1000);
 }
 
