@@ -55,6 +55,27 @@ function updateTime() {
     .format("hh:mm:ss");
   sydneyMeridiem.innerHTML = moment().tz("Australia/Sydney").format("A");
 }
-
-//setInterval(function () {}); if you don't have function created
 setInterval(updateTime, 1000);
+//setInterval(function () {}); if you don't have function created
+
+function updateCity(event) {
+  setInterval(function () {
+    let cityTimezone = event.target.value;
+    let cityName = event.target.options[event.target.selectedIndex].text;
+    let cityTime = moment().tz(cityTimezone);
+    let citiesElement = document.querySelector("#cities");
+    citiesElement.innerHTML = `<div class="city">
+          <div>
+            <h2>${cityName}</h2>
+            <div class="date">${cityTime.format("MMMM Do YYYY")}</div>
+          </div>
+          <div>
+            <h2 class="time">${cityTime.format("hh:mm:ss")}</h2>
+            <div class="meridiem">${cityTime.format("A")}</div>
+          </div>
+        </div>`;
+  }, 1000);
+}
+
+let citiesSelectElement = document.querySelector("#select-city");
+citiesSelectElement.addEventListener("change", updateCity);
