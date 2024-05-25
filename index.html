@@ -5,13 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.45/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>World Clock</title>
   </head>
   <body>
+    <h1>World Clock</h1>
     <div class="container">
-      <h1>World Clock</h1>
       <select name="" id="">
         <option value="">Select a city...</option>
         <option value="my-location">My location</option>
@@ -24,30 +30,52 @@
         <option value="tokyo">Tokyo 🇯​​​​​🇵​​​​​</option>
       </select>
       <div class="city">
-        <h2>Los Angeles 🇺​​​​​🇸​​​​​🇦</h2>
-        <div class="date">month date, year</div>
-        <div class="time">h:mm:ss</div>
+        <div>
+          <h2>Los Angeles, USA</h2>
+          <div class="date">month date, year</div>
+        </div>
+        <div>
+          <h2 class="time">h:mm:ss</h2>
+          <div class="meridiem">AM/PM</div>
+        </div>
       </div>
       <div class="city">
-        <h2>Brussels 🇧​​​​​🇪</h2>
-        <div class="date">month date year</div>
-        <div class="time">h:mm:ss</div>
+        <div>
+          <h2>Brussels, BE</h2>
+          <div class="date">month date year</div>
+        </div>
+        <div>
+          <h2 class="time">h:mm:ss</h2>
+          <div class="meridiem">AM/PM</div>
+        </div>
       </div>
       <div class="city">
-        <h2>New Delhi 🇮​​​​​🇳</h2>
-        <div class="date">month date year</div>
-        <div class="time">h:mm:ss</div>
+        <div>
+          <h2>New Delhi, IN</h2>
+          <div class="date">month date year</div>
+        </div>
+        <div>
+          <h2 class="time">h:mm:ss</h2>
+          <div class="meridiem">AM/PM</div>
+        </div>
       </div>
       <div class="city">
-        <h2>Sydney 🇦​​​​​🇺</h2>
-        <div class="date">month date year</div>
-        <div class="time">h:mm:ss</div>
+        <div>
+          <h2>Sydney, AU</h2>
+          <div class="date">month date year</div>
+        </div>
+        <div>
+          <h2 class="time">h:mm:ss</h2>
+          <div class="meridiem">AM/PM</div>
+        </div>
       </div>
     </div>
     <br />
     <footer>
       This project was coded by
-      <a href="https://github.com/NinaDlvx" target="_blank">Nina Delvaux</a>, is
+      <a href="https://github.com/NinaDlvx" target="_blank">Nina Delvaux</a
+      >,<br />
+      is
       <a href="https://github.com/NinaDlvx/World-Clock-Project" target="_blank"
         >open-sourced on Github</a
       >
